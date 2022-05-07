@@ -19,9 +19,9 @@ const Header = () => {
           <img src={people} alt="people" />
           <p>1697 people requested access or visited in last 24 hours</p>
         </div>
-        <div className="dtbn__header-image">
-          <img src={ai} alt="ai" />
-        </div>
+      </div>        
+      <div className="dtbn__header-image">
+        <img src={ai} alt="ai" />
       </div>
     </div>
   )
