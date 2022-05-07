@@ -1,0 +1,47 @@
+.dtbn__navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem 6rem;
+}
+
+.dtbn__navbar-links {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.dtbn__navbar-links_logo {
+    margin-right: 2rem;
+}
+
+.dtbn__navbar-links_logo img {
+    /* from Figma file */
+    width: 62.56px;
+    height: 16.02px;
+}
+
+.dtbn__navbar-links_container {
+    display: flex;
+}
+
+.dtbn__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dtbn__navbar-links_container p,
+.dtbn__navbar-menu_container p,
+.dtbn__navbar-sign p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
