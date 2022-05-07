@@ -1,0 +1,112 @@
+.dtbn__header {
+    display: flex;
+}
+
+.dtbn__header-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 5rem;
+}
+
+.dtbn__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04rem;
+}
+
+.dtbn__header-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.dtbn__header-content__input {
+    display: flex;
+    width: 100%;
+    margin: 2rem 0 1rem;
+}
+
+.dtbn__header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #fff;
+}
+
+.dtbn__header-content__input button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    padding: 0 1rem;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    background: #FF4820;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.dtbn__header-content__people {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.dtbn__header-content__people img {
+    width: 181.79px;
+    height: 38px;
+}
+
+.dtbn__header-content__people p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+    margin: 0 0 0 1rem;
+}
+
+.dtbn__header-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.dtbn__header-image img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .dtbn__header {
+        flex-direction: column;
+    }
+    .dtbn__header-content {
+        margin: 0 0 3rem;
+    }
+}
