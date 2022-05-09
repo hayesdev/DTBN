@@ -10,7 +10,7 @@ const WhatDTBN = () => {
       </div>
       <div className="dtbn__whatdtbn-heading">
         <h1 className="gradient__text">
-          The Possibilities Are Beyond Your Imagination
+          The possibilities are beyond your imagination
         </h1>
         <p>Explore The Library</p>
       </div>
